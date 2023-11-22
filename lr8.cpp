@@ -15,19 +15,14 @@ int main() {
 	cout << "Введіть y: ";
 	cin >> y;
 
-	double result = func1(x);
-	cout << "\nРезультат 1 формули = " << result << endl;
-	double result1 = func2(x, y);
-	cout << "\nРезультат 2 формули = " << result1 << endl;
+	int a = func1(x);
+	cout << "\nРезультат 1 формули = " << a << endl;
+	double b = func2(x, y);
+	cout << "\nРезультат 2 формули = " << b << endl;
 
-	//Завдання 2
-	double a, b;
-	cout << "\nВведіть а: ";
-	cin >> a;
-	cout << "\nВведіть b: ";
-	cin >> b;
+	//Завдання 4
 
-	double result2 = geometricAverage(a, b);
-	cout << "\nРезультат функції = " << result2;
+	double result3 = geometricAverage(a, b);
+	cout << "\nРезультат функції = " << result3;
 
 }

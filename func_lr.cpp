@@ -1,13 +1,13 @@
 #define _USE_MATH_DEFINES
 #include <cmath>
 
-double geometricAverage(double a, double b) {
+double geometricAverage(int a, double b) {
 
 	return sqrt(a * b);
 
 }
 
-double func1(int x) {
+int func1(int x) {
 	return cbrt(pow(cos(x * x), 3) + fabs(10 * x - 6)) + sin(M_PI_2);
 }
 
