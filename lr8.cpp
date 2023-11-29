@@ -23,6 +23,6 @@ int main() {
 	//Завдання 4
 
 	double result3 = geometricAverage(a, b);
-	cout << "\nРезультат функції = " << result3;
+	cout << "\nРезультат формули = " << result3;
 
 }
