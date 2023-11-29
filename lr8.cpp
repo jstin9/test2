@@ -20,7 +20,7 @@ int main() {
 	double result1 = func2(x, y);
 	cout << "\nРезультат 2 формули = " << result1 << endl;
 
-	//Завдання 2
+	//Завдання 5
 	double a, b;
 	cout << "\nВведіть а: ";
 	cin >> a;
